@@ -1,0 +1,164 @@
+html, body {
+    background: transparent;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%
+}
+
+.right-align {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.center-stack {
+    transform: translate(0, 27px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    z-index: 0;
+}
+
+#lilies {
+    animation-name: smallbob;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes smallbob {
+    0% {
+    transform: translateY(0px); /* Starting position */
+    }
+    50% {
+    transform: translateY(3px); /* Ending position */
+    }
+    100% {
+    transform: translateY(0px)
+    }
+}
+
+
+p {
+    text-align: center;
+    color:red;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    visibility: hidden;
+}
+
+#duckyou.angry {
+    visibility: visible;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    user-select: none
+}
+
+.icons {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.subicons {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.subicons img {
+    height: 55px;
+    width: 55px;
+}
+
+.subicons.active {
+    visibility: visible;
+
+}
+
+#menu {
+    position: relative; 
+    z-index: 100;  
+    cursor: pointer;
+}
+
+#menu:hover {
+    transform: translateY(1px);
+    cursor: grab;
+}
+
+#menu:active {
+    transform: translateY(3px);
+    cursor: grabbing;
+}
+
+.icons img {
+    height: 55px;
+    width: 55px;
+}
+
+#move {
+    cursor: grab;
+    -webkit-app-region: drag;
+    z-index: 99;
+}
+
+#close {
+    z-index: 99;
+}
+
+.subicons:hover {
+    transform: translateY(1px);
+    cursor: grab;
+}
+
+.subicons:active {
+    transform: translateY(3px);
+    cursor: grabbing;
+}
+#holdingcell {
+    width: 225px;
+    border: 3px solid blue
+}
+
+#guy {
+    width: 100px;
+    margin: auto;
+    padding: 0;
+    animation-name: smallbob;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    border: 2px solid red;
+    transform: translateX(40px);
+
+}
