@@ -24,5 +24,7 @@ npm start
 ```
 
 **Reqs:**
+
 Node.js >= 18
+
 npm 
