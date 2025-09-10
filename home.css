@@ -24,7 +24,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid green
+    /* border: 2px solid green */
 }
 
 .background {
@@ -147,7 +147,7 @@ img {
 }
 #holdingcell {
     width: 225px;
-    border: 3px solid blue
+    /* border: 3px solid blue */
 }
 
 #guy {
@@ -158,7 +158,7 @@ img {
     animation-duration: 4s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     transform: translateX(40px);
 
 }
