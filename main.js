@@ -6,7 +6,7 @@ const path = require('path')
 const createWindow = () => {
     const win = new BrowserWindow({
         width: 250,
-        height: 300,
+        height: 250,
         transparent: true, 
         frame: false,
         alwaysOnTop: true, 

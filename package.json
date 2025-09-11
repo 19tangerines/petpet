@@ -11,6 +11,7 @@
   "author": "tangerine19",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^37.2.5"
+    "electron": "^37.2.5",
+    "electron-packager": "^17.1.2"
   }
 }
